@@ -1,0 +1,125 @@
+body{
+    background-image: url("../images/8.png");
+}
+
+#navbarNav{
+    font-size: 17px;
+}
+#header-one{
+    background-color: #02050e;
+}
+#header-two{
+    background-image: url("../images/2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffc000;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#section-one{
+    background-image: url("../images/7.png");
+}
+
+.carousel-inner img {
+    width: 30%;
+    height: 50%;
+    text-align:center;
+}
+
+.carousel-inner{
+    text-align:center;
+}
+
+#v-pills-tab{
+    height: 350px;
+  border-right: 1px solid gray;
+
+}
+
+
+
+#v-pills-tab a{
+
+ display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: right;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+
+}
+
+
+#v-pills-tab a:hover{
+  color: #fec721;
+  border-right: 1px solid #fec721;
+}
+#v-pills-tab a.active{
+        font-weight: bolder;
+    color: #fec721;
+  border-right: 5px solid #fec721;
+}
+
+.button1 {
+    background-color: #ffc000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#v-pills-profile img{
+
+    height: 350px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#v-pills-messages img{
+    
+    height: 350px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#p-one{
+    font-size: 30px;
+}
+
+#footer{
+    background-color: #404042;
+}
+
+#footer-2{
+    background-color: #02050e;
+}
+
+#p-two{
+    font-size: 12px;
+    color: #6b7382;
+}
+#footer-3{
+    color: #6b7382;
+}
+
+
+
+@media only screen
+and (max-device-width : 768px) {
+
+#navbar-toggler{
+    background-color: white; 
+}
+
+
+}
